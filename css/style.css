@@ -39,9 +39,6 @@ button {
 .bold {
   font-weight: bold;
 }
-.button {
-
-}
 body {
   font-size: 1.6rem;
 }
@@ -107,4 +104,40 @@ body {
   position: relative;
   top: -7rem;
   left: 0;
+}
+.facts {
+  margin-bottom: 2rem;
+}
+.achievements-container {
+  padding: 0 20rem 13rem;
+}
+.achievements {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.box {
+  border: 2px solid var(--orange-color);
+  padding: 4rem 6rem 6rem;
+  display: grid;
+  gap: 1.5rem;
+  border-radius: 1rem;
+}
+@keyframes first-animation {
+  0% {
+    background-color: var(--orange-color);
+  }
+  50% {
+    background-color: tomato;
+  }
+  100% {
+    background-color: black;
+  }
+}
+.box:hover { 
+  animation-name: first-animation;
+  animation-timing-function: 0.5s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
