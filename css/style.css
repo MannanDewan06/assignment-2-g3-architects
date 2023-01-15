@@ -83,3 +83,28 @@ body {
   display: grid;
   gap: 2rem;
 }
+.border-left {
+  border-left: 0.5rem solid var(--orange-color);
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+.features-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  gap: 5rem;
+  padding: 0 20rem 13rem;
+}
+.features-head {
+  margin-bottom: 3rem;
+}
+.features-list {
+  padding-left: 2rem;
+  display: grid;
+  gap: 2rem;
+}
+.btn-float {
+  position: relative;
+  top: -7rem;
+  left: 0;
+}
