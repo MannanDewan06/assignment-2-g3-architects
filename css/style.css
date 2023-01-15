@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  font-size: 62.5%;
+  --orange-color: #FF900E;
+  --banner-background: rgba(255, 144, 14, 0.1);
+  --white-color: white;
+  --primary-color: #727272;
+
+}
+.fluid { 
+  width: 100%;
+}
+p { 
+  color: var(--primary-color);
+}
+button {
+  padding: 2rem 2.5rem;
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  border-radius: 1rem;
+  border: none;
+}
+.font65 {
+  font-size: 6.5rem;
+}
+.font45 {
+  font-size: 4.5rem;
+}
+.font20 {
+  font-size: 2rem;
+}
+.bold {
+  font-weight: bold;
+}
+.button {
+
+}
+body {
+  font-size: 1.6rem;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  padding: 5rem 0 10.7rem 22rem;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  padding: 5rem 24rem 10.7rem 0;
+  gap: 5rem;
+  color: var(--primary-color);
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  background-color: var(--banner-background);
+}
